@@ -1,0 +1,12 @@
+[
+    {
+        "title": "First Post",
+        "image": "image url",
+        "text": "Blog post text"
+    },
+    {
+        "title": "Second Post",
+        "image": "image url",
+        "text": "blog post text"
+    }
+]
