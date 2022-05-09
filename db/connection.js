@@ -12,7 +12,7 @@ const db = mongoose.connection;
 if (process.env.NODE_ENV === "production") {
 	mongoURI = process.env.DB_URL;
   } else {
-	mongoURI = "mongodb://localhost/8000/Babble";
+	mongoURI = "mongodb://localhost/Babble";
   }
 
 // Connect to Mongo
