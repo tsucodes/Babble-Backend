@@ -8,5 +8,15 @@
         "title": "Second Post",
         "image": "image url",
         "text": "blog post text"
+    },
+    {
+        "title": "Third Post",
+        "image": "image url",
+        "text": "blog post text"
+    },
+    {
+        "title": "Fourth Post",
+        "image": "image url",
+        "text": "blog post text"
     }
 ]
