@@ -6,13 +6,13 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Mongo URL and Connection
-let mongoURI = '';
+let mongoURI = "";
 const db = mongoose.connection;
 
 if (process.env.NODE_ENV === "production") {
-	mongoURI = process.env.DATABASE_URL;
+	mongoURI = process.env.DB_URL;
   } else {
-	mongoURI = "mongodb://localhost/8000/";
+	mongoURI = "mongodb://localhost/8000/Babble";
   }
 
 // Connect to Mongo
