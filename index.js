@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 // start controllers
 const blogpostcontrollers = require('./controllers/blogpostControllers');
-app.use('/', blogpostcontrollers);
+app.use('/blog', blogpostcontrollers);
 
 // err handling
 app.use((err, req, res, next) => {
