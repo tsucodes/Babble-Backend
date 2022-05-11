@@ -1,5 +1,6 @@
 # Babble-Backend
-One Paragraph of project description goes here
+
+This is an API intended to gather blogposts from anonymous users on the web (deployed here: https://babble-ijc-tr.netlify.app/) in order to allow them to share their stories, whatever they may be. Specifically with regards to this backend functionality, users have full CRUD access in order to contribute communally to this project.
 
 ## Getting Started
 
@@ -14,31 +15,39 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
+You need NPM installed on your machine in order to make a local environment for this API. 
+
+For using the API in a live environment, simply make calls to this URL
 ```
-$ npm install express mongoose dotenv cors
+https://babble-tr-ijc.herokuapp.com/blog
+```
+
+if you need to change 1 post, do so by id like so:
+
+```https://babble-tr-ijc.herokuapp.com/blog/<id>
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+In the command line:
 
 ```
-
+$ npm install express mongoose dotenv cors
 ```
 
-And repeat
+We recommend using POSTman in order to test without using fetch/axios calls on the front-end. 
 
-```
-until finished
-```
+Postman: https://www.postman.com/
 
-End with an example of getting some data out of the system or using it for a little demo
+Simply read the documentation from their site to get started.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+This API is currently deployed on heroku (https://babble-tr-ijc.herokuapp.com/blog).
+
+We used the Heroku CLI in order to deploy easily.
+
+Instructions here: https://devcenter.heroku.com/articles/git
 
 
 ## Contributors
