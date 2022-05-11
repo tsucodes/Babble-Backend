@@ -40,20 +40,12 @@ End with an example of getting some data out of the system or using it for a lit
 Add additional notes about how to deploy this on a live system
 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Contributors
 
 * **Tsani Rhodes** - *Scrum Manager* - [Github](https://github.com/tsucodes)
 * **Jessie Collado** - *Junior Developer* - [Github](https://github.com/I-J-C)
 
-## Acknowledgments
+## Resources
 
 * Hat tip to anyone whose code was used
 * Inspiration
