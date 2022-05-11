@@ -1,4 +1,3 @@
-// db/connection.js
 //=============================================================================
 // Mongo Atlas Connection
 //=============================================================================
@@ -29,6 +28,4 @@ db.on('open', () => {
 	console.log('✅ mongo connection made!');
 });
 
-// now, our mongoose instance has a configured connection to our local db, in addition
-// to its model configuration and can be exported to other files
 module.exports = mongoose;

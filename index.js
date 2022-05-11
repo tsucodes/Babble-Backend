@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
 	res.redirect('/blog');
 });
 // start controllers
-const blogpostcontrollers = require('./controllers/blogpostControllers');
-app.use('/blog', blogpostcontrollers);
+const blogpostControllers = require('./controllers/blogpostControllers');
+app.use('/blog', blogpostControllers);
 
 // err handling
 app.use((err, req, res, next) => {

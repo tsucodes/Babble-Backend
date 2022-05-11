@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-//check to make sure this matches the actual models file
 const Blogpost = require('../models/Blogpost');
 
 //READ: get all Blogposts
@@ -55,8 +54,7 @@ router.put('/:id', async (req, res, next) => {
 //DELETE Blogpost
 router.delete('/:id', async (request, response, next) => {
 	try {
-	const BlogpostToDelete = await Blogpost.findByIdAndDelete(request.params.id)
-	// console.log(BlogpostToDelete);
+	const BlogpostToDelete = await Blogpost.findByIdAndDelete(request.params.id);
 	if (BlogpostToDelete) {
 		response.redirect(303, '/');
 	}else{
