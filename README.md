@@ -1,5 +1,6 @@
 # Babble-Backend
 
+## Description
 This is an API intended to gather blogposts from anonymous users on the web (deployed here: https://babble-ijc-tr.netlify.app/) in order to allow them to share their stories, whatever they may be. Specifically with regards to this backend functionality, users have full CRUD access in order to contribute communally to this project.
 
 ## Getting Started
