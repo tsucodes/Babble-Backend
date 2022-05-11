@@ -13,8 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 You need NPM installed on your machine in order to make a local environment for this API. 
 
 For using the API in a live environment, simply make calls to this URL
