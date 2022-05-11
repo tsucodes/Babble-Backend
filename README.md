@@ -53,8 +53,3 @@ Instructions here: https://devcenter.heroku.com/articles/git
 * **Tsani Rhodes** - *Scrum Manager* - [Github](https://github.com/tsucodes)
 * **Jessie Collado** - *Junior Developer* - [Github](https://github.com/I-J-C)
 
-## Resources
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
