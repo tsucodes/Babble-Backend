@@ -22,8 +22,8 @@ https://babble-tr-ijc.herokuapp.com/blog
 ```
 
 if you need to change 1 post, do so by id like so:
-
-```https://babble-tr-ijc.herokuapp.com/blog/<id>
+```
+https://babble-tr-ijc.herokuapp.com/blog/<id>
 ```
 
 ### Installing
